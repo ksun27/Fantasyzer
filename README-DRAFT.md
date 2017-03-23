@@ -36,7 +36,7 @@ Add site map here
 
 Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/20/Sitemap_google.jpg), but you can create one without the screenshots, drop shadows, etc. ... just names of pages and where they flow to.
 
-## User stories or Use Cases
+## User Stories or Use Cases
 
 1. as a user, I can create a new grocery list
 2. as a user, I can view all of the grocery lists I've created in a single list
@@ -61,4 +61,5 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
     * I set it as 2 points because integration will be easy
 
     * addtional points will not count for extra credit
-
+    
+## [Link to Initial Main Project File](app.js)
