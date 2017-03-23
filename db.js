@@ -1,3 +1,7 @@
+// 1ST DRAFT DATA MODEL
+// TODO: requires / mongoose setup
+
+
 // users
 // * our site requires authentication...
 // * so users have a username and password
@@ -28,4 +32,6 @@ var List = new mongoose.Schema({
   createdAt: {type: Date, required: true},
   items: [Item]
 });
-```
+
+// TODO: add remainder of setup for slugs, connection, registering models, etc. below
+

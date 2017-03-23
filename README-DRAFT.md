@@ -1,6 +1,8 @@
-# Shoppy Shoperson
+# Shoppy Shoperson (_add your project name_)
 
 ## Overview
+
+(_write a brief one or two paragraph, high-level description of your project_)
 
 Remembering what to buy at the grocery store is waaaaay too difficult. Also, shopping for groceries when you're hungry leads to regrettable purchases. Sooo... that's where Shoppy Shoperson comes in!
 
@@ -9,14 +11,42 @@ Shoppy Shoperson is a web app that will allow users to keep track of multiple gr
 
 ## Data Model
 
-The application will need to store Users, Lists and Items
+(_describe the documents and their relationships to each other as required for your application_) 
 
-* users can have multiple lists
-* each list can have multiple items
+The application will store Users, Lists and Items
 
-## [Link to commented first draft schema](db.js)
+* users can have multiple lists (via references)
+* each list can have multiple items (by embedding)
+
+An Example User:
+
+```javascript
+{
+  username: "shannonshopper",
+  hash: // a password hash,
+  lists: // an array of references to List documents
+}
+```
+
+An Example List with Embedded Items:
+
+```javascript
+{
+  user: // a reference to a User object
+  name: "Breakfast foods",
+  items: [
+    { name: "pancakes", quantity: "9876", checked: false},
+    { name: "ramen", quantity: "2", checked: true},
+  ],
+  createdAt: // timestamp
+}
+```
+
+## [Link to commented first draft schema](db.js) (_add a link to the first draft of your Schemas here_)
 
 ## Wireframes
+
+(_create wireframes for all of the pages on your site; they can be as simple as photos of drawings_)
 
 /list/create - page for creating a new shopping list
 
@@ -32,11 +62,13 @@ The application will need to store Users, Lists and Items
 
 ## Site map
 
-Add site map here
+(_draw out a site map that shows how pages are related to each other_)
 
 Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/20/Sitemap_google.jpg), but you can create one without the screenshots, drop shadows, etc. ... just names of pages and where they flow to.
 
 ## User Stories or Use Cases
+
+(_write out how your application will be used through user stores and / or use cases_)
 
 1. as a user, I can create a new grocery list
 2. as a user, I can view all of the grocery lists I've created in a single list
@@ -45,7 +77,9 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
 
 ## Research Topics
 
-* (6 points) Integrate user authentication
+(_add the research topics that you're planning on working on along with their point values, and their total_)
+
+* (5 points) Integrate user authentication
     * I'm going to be using passport for user authentication
     * And account has been made for testing; I'll email you the password
     * see <code>cs.nyu.edu/~jversoza/ait-final/register</code> for register page
@@ -53,13 +87,16 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
 * (4 points) Perform client side form validation using a JavaScript library
     * see <code>cs.nyu.edu/~jversoza/ait-final/my-form</code>
     * if you put in a number that's greater than 5, an error message will appear in the dom
-* (2 points) Some amazing new JavaScript library
-    * the library does...
-    * you can see it working in these pages:
-        * link 1
-        * link 2
-    * I set it as 2 points because integration will be easy
+* (5 points) vue.js
+    * used vue.js as the frontend framework; it's a challenging library to learn, so I've assigned it 5 points
 
-    * addtional points will not count for extra credit
+10 points total out of 8 required points (_addtional points will __not__ count for extra credit_)
     
-## [Link to Initial Main Project File](app.js)
+## [Link to Initial Main Project File](app.js) (_link to your initial app.js_)
+
+## Annotations / References Used
+
+(_list any tutorials/references/etc. that you've based your code off of)
+
+1. [passport.js authentication docs](http://passportjs.org/docs)
+2. [tutorial on vue.js](https://vuejs.org/v2/guide/)
