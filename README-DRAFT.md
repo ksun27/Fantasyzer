@@ -1,5 +1,10 @@
+<style>
+.edit {
+  color: #374
+}
+</style>
 
-# (Name of your project) Shoppy Shoperson
+# <span class="edit">Shoppy Shoperson</span>
 
 ## Overview
 
