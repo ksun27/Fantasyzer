@@ -1,5 +1,3 @@
-Note: Everything in []'s should be your own text!
-
 # Shoppy Shoperson
 
 ## Overview
@@ -16,11 +14,9 @@ The application will need to store Users, Lists and Items
 * users can have multiple lists
 * each list can have multiple items
 
-[Commented first draft schema](db.js)
+## [Link to commented first draft schema](db.js)
 
 ## Wireframes
-
-(these are html mockups for wireframes, though they can be created using wireframing tools or even hand-drawn)
 
 /list/create - page for creating a new shopping list
 
@@ -40,7 +36,7 @@ Add site map here
 
 Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/20/Sitemap_google.jpg), but you can create one without the screenshots, drop shadows, etc. ... just names of pages and where they flow to.
 
-## User stories
+## User stories or Use Cases
 
 1. as a user, I can create a new grocery list
 2. as a user, I can view all of the grocery lists I've created in a single list
@@ -63,6 +59,6 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
         * link 1
         * link 2
     * I set it as 2 points because integration will be easy
-* ... for total of 12 points (more than required)
+
     * addtional points will not count for extra credit
 
