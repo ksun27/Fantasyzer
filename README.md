@@ -1,8 +1,10 @@
-# Shoppy Shoperson (_your project name_)
+(_TODO: your project name_)
+
+# Shoppy Shoperson 
 
 ## Overview
 
-(_a brief one or two paragraph, high-level description of your project_)
+(_TODO: a brief one or two paragraph, high-level description of your project_)
 
 Remembering what to buy at the grocery store is waaaaay too difficult. Also, shopping for groceries when you're hungry leads to regrettable purchases. Sooo... that's where Shoppy Shoperson comes in!
 
@@ -11,14 +13,14 @@ Shoppy Shoperson is a web app that will allow users to keep track of multiple gr
 
 ## Data Model
 
-(_a description of your application's data and their relationships to each other_) 
+(_TODO: a description of your application's data and their relationships to each other_) 
 
 The application will store Users, Lists and Items
 
 * users can have multiple lists (via references)
 * each list can have multiple items (by embedding)
 
-(_sample documents_)
+(_TODO: sample documents_)
 
 An Example User:
 
@@ -44,11 +46,11 @@ An Example List with Embedded Items:
 }
 ```
 
-## [Link to commented first draft schema](db.js) (_a link to the first draft of your Schemas in db.js_)
+## [Link to commented first draft schema](db.js) (_TODO: a link to the first draft of your Schemas in db.js_)
 
 ## Wireframes
 
-(_wireframes for all of the pages on your site; they can be as simple as photos of drawings or you can use a tool like Balsamiq, Omnigraffle, etc._)
+(_TODO: wireframes for all of the pages on your site; they can be as simple as photos of drawings or you can use a tool like Balsamiq, Omnigraffle, etc._)
 
 /list/create - page for creating a new shopping list
 
@@ -64,13 +66,13 @@ An Example List with Embedded Items:
 
 ## Site map
 
-(_draw out a site map that shows how pages are related to each other_)
+(_TODO: draw out a site map that shows how pages are related to each other_)
 
 Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/20/Sitemap_google.jpg), but you can create one without the screenshots, drop shadows, etc. ... just names of pages and where they flow to.
 
 ## User Stories or Use Cases
 
-(_write out how your application will be used through [user stories](http://en.wikipedia.org/wiki/User_story#Format) and / or [use cases](https://www.mongodb.com/download-center?jmp=docs&_ga=1.47552679.1838903181.1489282706#previous)_)
+(_TODO: write out how your application will be used through [user stories](http://en.wikipedia.org/wiki/User_story#Format) and / or [use cases](https://www.mongodb.com/download-center?jmp=docs&_ga=1.47552679.1838903181.1489282706#previous)_)
 
 1. as non-registered user, I can register a new account with the site
 2. as a user, I can log in to the site
@@ -81,7 +83,7 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
 
 ## Research Topics
 
-(_add the research topics that you're planning on working on along with their point values, and their total_)
+(_TODO: add the research topics that you're planning on working on along with their point values, and their total_)
 
 * (5 points) Integrate user authentication
     * I'm going to be using passport for user authentication
@@ -94,13 +96,13 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
 * (5 points) vue.js
     * used vue.js as the frontend framework; it's a challenging library to learn, so I've assigned it 5 points
 
-10 points total out of 8 required points (_addtional points will __not__ count for extra credit_)
+10 points total out of 8 required points (_TODO: addtional points will __not__ count for extra credit_)
     
-## [Link to Initial Main Project File](app.js) (_link to your initial app.js_)
+## [Link to Initial Main Project File](app.js) (_TODO: link to your initial app.js_)
 
 ## Annotations / References Used
 
-(_list any tutorials/references/etc. that you've based your code off of_)
+(_TODO: list any tutorials/references/etc. that you've based your code off of_)
 
 1. [passport.js authentication docs](http://passportjs.org/docs)
 2. [tutorial on vue.js](https://vuejs.org/v2/guide/)
