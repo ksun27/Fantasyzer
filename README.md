@@ -46,9 +46,10 @@ An Example List with Embedded Items:
 }
 ```
 
-(___TODO__: a link to the first draft of your Schemas in db.js_)
 
-## [Link to commented first draft schema](db.js) 
+## [Link to Commented First Draft Schema](db.js) 
+
+(___TODO__: create a first draft of your Schemas in db.js and link to it_)
 
 ## Wireframes
 
@@ -100,9 +101,10 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
 
 10 points total out of 8 required points (___TODO__: addtional points will __not__ count for extra credit_)
 
-(___TODO__: link to your initial app.js_)
 
 ## [Link to Initial Main Project File](app.js) 
+
+(___TODO__: create a skeleton Express application with a package.json, app.js, views folder, etc. ... and link to your initial app.js_)
 
 ## Annotations / References Used
 
