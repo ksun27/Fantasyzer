@@ -46,7 +46,9 @@ An Example List with Embedded Items:
 }
 ```
 
-## [Link to commented first draft schema](db.js) (_TODO: a link to the first draft of your Schemas in db.js_)
+(_TODO: a link to the first draft of your Schemas in db.js_)
+
+## [Link to commented first draft schema](db.js) 
 
 ## Wireframes
 
@@ -83,7 +85,7 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
 
 ## Research Topics
 
-(_TODO: add the research topics that you're planning on working on along with their point values, and their total_)
+(_TODO: the research topics that you're planning on working on along with their point values... and the total points of research topics listed_)
 
 * (5 points) Integrate user authentication
     * I'm going to be using passport for user authentication
@@ -97,12 +99,14 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
     * used vue.js as the frontend framework; it's a challenging library to learn, so I've assigned it 5 points
 
 10 points total out of 8 required points (_TODO: addtional points will __not__ count for extra credit_)
-    
-## [Link to Initial Main Project File](app.js) (_TODO: link to your initial app.js_)
+
+(_TODO: link to your initial app.js_)
+
+## [Link to Initial Main Project File](app.js) 
 
 ## Annotations / References Used
 
 (_TODO: list any tutorials/references/etc. that you've based your code off of_)
 
-1. [passport.js authentication docs](http://passportjs.org/docs)
-2. [tutorial on vue.js](https://vuejs.org/v2/guide/)
+1. [passport.js authentication docs](http://passportjs.org/docs) - (add link to source code that was based on this)
+2. [tutorial on vue.js](https://vuejs.org/v2/guide/) - (add link to source code that was based on this)
