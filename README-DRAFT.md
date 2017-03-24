@@ -1,8 +1,8 @@
-# Shoppy Shoperson (_add your project name_)
+# Shoppy Shoperson (_your project name_)
 
 ## Overview
 
-(_write a brief one or two paragraph, high-level description of your project_)
+(_a brief one or two paragraph, high-level description of your project_)
 
 Remembering what to buy at the grocery store is waaaaay too difficult. Also, shopping for groceries when you're hungry leads to regrettable purchases. Sooo... that's where Shoppy Shoperson comes in!
 
@@ -11,12 +11,14 @@ Shoppy Shoperson is a web app that will allow users to keep track of multiple gr
 
 ## Data Model
 
-(_describe the documents and their relationships to each other as required for your application_) 
+(_a description of your application's data and their relationships to each other_) 
 
 The application will store Users, Lists and Items
 
 * users can have multiple lists (via references)
 * each list can have multiple items (by embedding)
+
+(_sample documents_)
 
 An Example User:
 
@@ -42,11 +44,11 @@ An Example List with Embedded Items:
 }
 ```
 
-## [Link to commented first draft schema](db.js) (_add a link to the first draft of your Schemas here_)
+## [Link to commented first draft schema](db.js) (_a link to the first draft of your Schemas in db.js_)
 
 ## Wireframes
 
-(_create wireframes for all of the pages on your site; they can be as simple as photos of drawings_)
+(_wireframes for all of the pages on your site; they can be as simple as photos of drawings or you can use a tool like Balsamiq, Omnigraffle, etc._)
 
 /list/create - page for creating a new shopping list
 
@@ -68,12 +70,14 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
 
 ## User Stories or Use Cases
 
-(_write out how your application will be used through user stores and / or use cases_)
+(_write out how your application will be used through [user stories](http://en.wikipedia.org/wiki/User_story#Format) and / or [use cases](https://www.mongodb.com/download-center?jmp=docs&_ga=1.47552679.1838903181.1489282706#previous)_)
 
-1. as a user, I can create a new grocery list
-2. as a user, I can view all of the grocery lists I've created in a single list
-3. as a user, I can add items to an existing grocery list
-4. as a user, I can cross off items in an existing grocery list
+1. as non-registered user, I can register a new account with the site
+2. as a user, I can log in to the site
+3. as a user, I can create a new grocery list
+4. as a user, I can view all of the grocery lists I've created in a single list
+5. as a user, I can add items to an existing grocery list
+6. as a user, I can cross off items in an existing grocery list
 
 ## Research Topics
 
@@ -96,7 +100,7 @@ Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia
 
 ## Annotations / References Used
 
-(_list any tutorials/references/etc. that you've based your code off of)
+(_list any tutorials/references/etc. that you've based your code off of_)
 
 1. [passport.js authentication docs](http://passportjs.org/docs)
 2. [tutorial on vue.js](https://vuejs.org/v2/guide/)
