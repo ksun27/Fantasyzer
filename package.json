@@ -1,24 +1,5 @@
 {
-  "name": "final-project-example",
-  "version": "1.0.0",
-  "description": "## Overview",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nyu-csci-ua-0480-008-spring-2017/final-project-example.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nyu-csci-ua-0480-008-spring-2017/final-project-example/issues"
-  },
-  "homepage": "https://github.com/nyu-csci-ua-0480-008-spring-2017/final-project-example#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.1.2",
-    "mongoose": "^6.0.12"
+    "react-modal": "^3.14.4"
   }
 }
